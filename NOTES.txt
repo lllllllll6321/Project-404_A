@@ -14,3 +14,11 @@ obvious when im mowing down zombies and im looking at ground blood disappearing 
 
 For Zombie Feet Sliding during animations:
 	- They're just poorly made anims, I see it sliding even in the asset itself
+	
+For Variety of Zombie Anims:
+	- Made a BlendSpace (not 1D) which support variety of animations along the vertical axis (named Anim Type)
+	- Make sure anim type axis value is within the range of the BaseZombie_BP "anim type" idle/walk/run/sprint variant set range
+	- Zombie anims are a bit jerky in game DUE TO a collision issue, they're colliding collisions is effecting the animations,
+	possibly due to the fact that the speeds are adjust during the blueprint, which may putting it at risk for influnece duiring collision and
+	therby negatively impacting the speed which results in blendspace animation switching/issues, will need further testin. But i know for certain
+	when collision is off theres 0% animation jerking doesnt matter how many zombies are chasing me or near each other
