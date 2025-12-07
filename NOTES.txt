@@ -1,0 +1,11 @@
+
+
+
+
+For Zombie Death Blood Splatter VFX:
+	- For performance reasons I set the vfx to 25 secs.
+	- This setting can be changed in the Niagara System > Initialize Particle (On Orange nodes) > Lifetime Mode = Direct Set, Lifetime = 25 (change this)
+	- I did this for all 5 NS_Splatter nodes im currently using
+	
+TWEAK TO FIX: Currently seems ground blood is linked to zombie body being destroyed, or somwething bc its too
+obvious when im mowing down zombies and im looking at ground blood disappearing before its lifetime ends
