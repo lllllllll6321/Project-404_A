@@ -9,3 +9,8 @@ For Zombie Death Blood Splatter VFX:
 	
 TWEAK TO FIX: Currently seems ground blood is linked to zombie body being destroyed, or somwething bc its too
 obvious when im mowing down zombies and im looking at ground blood disappearing before its lifetime ends
+
+
+
+For Zombie Feet Sliding during animations:
+	- They're just poorly made anims, I see it sliding even in the asset itself
