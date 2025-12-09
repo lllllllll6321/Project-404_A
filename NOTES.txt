@@ -22,3 +22,7 @@ For Variety of Zombie Anims:
 	possibly due to the fact that the speeds are adjust during the blueprint, which may putting it at risk for influnece duiring collision and
 	therby negatively impacting the speed which results in blendspace animation switching/issues, will need further testin. But i know for certain
 	when collision is off theres 0% animation jerking doesnt matter how many zombies are chasing me or near each other
+	
+	
+For HitReaction stuff: Actually super simple to integrate, just needed to add the "Perform Hit Reaction node" to my BP_ThirdPersonCharacter > f_ServerFireBullet >
+	just before the "Apply Point Damage" node". The BCP component itself as well as the Hit Registry node needs to be added only to BaseZombieBP
